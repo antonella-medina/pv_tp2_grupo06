@@ -9,4 +9,4 @@ Este repositorio contiene la resolución de la primera parte del TP N° 2.
 
 * **Antonella Juliana Medina** - antonella-medina
 * **Luis Miguel Moreno Sivila** - LuisMiguelMorenoSivila
-* **Jose Antonio Vilte** - VilteJose
+* **Jose Antonio Vilte** - VilteJoseg
