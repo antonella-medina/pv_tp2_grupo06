@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 13</title>
+</head>
+<body>
+    <script>
+        const mostrarArreglo = (arreglo) => {
+        for (let i = 0; i < arreglo.length; i++) 
+        {
+            document.write(`${arreglo[i]} <br>`);
+        }
+        };
+
+        let cantidad = parseInt(prompt("¿Cuántos números desea ingresar?"));
+        let numeros = [];
+
+        for (let i = 0; i < cantidad; i++)
+        {
+            let num = parseInt(prompt(`Ingrese el número ${i + 1}:`));
+            numeros.push(num);
+        }
+
+        mostrarArreglo(numeros);
+</script>
+</body>
+</html>
