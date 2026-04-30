@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 22 - Tiempo Real</title>
+    <style>
+        body { font-family: sans-serif; padding: 40px; background-color: #f0f2f5; }
+        .caja { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); max-width: 500px; }
+        input { width: 100%; padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; }
+        #visor-texto { margin-top: 20px; padding: 15px; border-left: 5px solid #007bff; background: #e9ecef; min-height: 20px; font-style: italic; }
+    </style>
+</head>
+<body>
+    <div class="caja">
+        <h2>Reflejo de Texto</h2>
+        <p>Escribí algo abajo y mirá cómo se actualiza:</p>
+        <input type="text" id="input-texto" placeholder="Escribí aquí...">
+        
+        <div id="visor-texto">El texto aparecerá aquí...</div>
+    </div>
+
+    <script type="module" src="js/ejercicio22.js"></script>
+</body>
+</html>
