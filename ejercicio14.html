@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 14</title>
+</head>
+<body>
+  <script>
+    // Función que duplica los valores de un arreglo
+    function duplicar(arreglo) {
+      return arreglo.map(num => num * 2);
+    }
+
+    const cantidad = parseInt(prompt("¿Cuántos números quieres ingresar?"));
+    const numeros = [];
+
+    for (let i = 0; i < cantidad; i++) {
+      const num = parseInt(prompt("Ingresa el número " + (i + 1) + ":"));
+      numeros.push(num);
+    }
+
+    const resultado = duplicar(numeros);
+    document.write(`<strong>Arreglo original:</strong> ${numeros.join(", ")} <br>`);
+        document.write(`<strong>Arreglo duplicado:</strong> ${resultado.join(", ")}`);
+  </script>
+</body>
+</html>
