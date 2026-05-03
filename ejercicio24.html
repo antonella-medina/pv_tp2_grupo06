@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 24 - Radio Buttons</title>
+    <style>
+        body { font-family: sans-serif; padding: 40px; background-color: #fffbe6; }
+        .card { background: white; padding: 20px; border-radius: 8px; border: 2px solid #f39c12; max-width: 400px; }
+        .opcion { margin-bottom: 10px; cursor: pointer; }
+        #visor-radio { margin-top: 20px; font-weight: bold; color: #d35400; padding: 10px; border-top: 1px dashed #ccc; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h3>¿Cuál es tu lenguaje favorito?</h3>
+        
+        <div class="opcion">
+            <input type="radio" id="js" name="lenguaje" value="JavaScript">
+            <label for="js">JavaScript</label>
+        </div>
+
+        <div class="opcion">
+            <input type="radio" id="py" name="lenguaje" value="Python">
+            <label for="py">Python</label>
+        </div>
+
+        <div class="opcion">
+            <input type="radio" id="java" name="lenguaje" value="Java">
+            <label for="java">Java</label>
+        </div>
+
+        <div id="visor-radio">Seleccioná una opción...</div>
+    </div>
+
+    <script type="module" src="js/ejercicio24.js"></script>
+</body>
+</html>
